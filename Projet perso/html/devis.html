@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Devis</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jura">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-wrapper flex space-between">
+                <div class="header-left">
+                    <img class="logo" src="../img/logo.png" alt="Logo du site RenovAction">
+                </div>
+                <div class="header-center flex column align-items-center">
+                    <h2 class="site-title">Roulez vieux, roulez heureux</h2>
+                    <nav class="">
+                        <ul class="menu flex space-around"> <!-- Menu -->
+                            <li><a class="link-header" href="../index.html">Accueil</a></li>
+                            <li> <a href="prestations.html" class="link-header" href="prestations.html">Prestations</a>
+                                <ul class="sub-menu">
+                                    <li><a class="link-header" href=""></a>Peinture</li>
+                                    <li><a class="link-header" href=""></a>Sellerie</li>
+                                    <li><a class="link-header" href=""></a>Chrome et Plastique</li>
+                                </ul>
+                            </li>
+                            <li><a class="link-header" href="devis.html">Devis</a></li>
+                            <li><a class="link-header" href="achat.html">Achat</a></li>
+                            <li><a class="link-header" href="vente.html">Vente</a></li>
+                            <li><a class="link-header" href="galerie.html">Galerie</a></li>                        
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-right">
+                     <ul>  <!-- Subscribe bloc -->
+                        <li><a href="inscription.html" class="link-header" id="subscribe">Inscription</a></li>
+                    </ul>
+                </div>                           
+            </div>            
+        </header>
+        <main class="devis-background backgrounds">
+            <div class="wrapper-home filter"><!-- Filtre opaque-->
+                <div class="site-presentation">
+                    <h1 class="main-title">Devis</h1>
+                    <p class="main-subtitle">
+                       <strong>Faîtes votre devis selon les préstations choisies et vôtre véhicule en quelques clics !</strong>
+                    </p>
+                </div> <!--Devis Box-->
+                <div class="devis flex align-items-center space-around">
+                    <form class="devis-left flex column align-items-center">
+                       <h2 class="devis-title">Vôtre véhicule</h2>
+                       <select class="devis-select text-center">
+                         <option value="Année">Année</option>
+                       </select>
+                       <select class="devis-select text-center">
+                        <option value="Année">Catégorie</option>
+                       </select>
+                       <h2 class="devis-title">Prestations</h2>
+                       <select class="devis-select text-center">
+                        <option value="Année">Peinture</option>
+                       </select>
+                       <select class="devis-select text-center">
+                        <option value="Année">Sellerie</option>
+                       </select>
+                       <select class="devis-select text-center">
+                        <option value="Année">Chrome</option>
+                       </select>
+                       <select class="devis-select text-center">
+                        <option value="Année">Plastique</option>
+                       </select>
+                    </form> <!--Recap devis-->
+                    <div class="devis-right flex column align-items-center">
+                        <h2 class="devis-title">Récapitulatif</h2>
+                        <p class="devis-recap flex align-items-center justify-center">lorem</p>
+                        <p class="devis-recap flex align-items-center justify-center">lorem</p>
+                        <p class="devis-recap flex align-items-center justify-center">lorem</p>
+                        <p class="devis-recap flex align-items-center justify-center">lorem</p>
+                        <h2 class="devis-title">Estimation</h2>
+                        <p class="devis-recap flex align-items-center justify-center">lorem</p>
+                        <button class="devis-submit">Soumettre le devis</button>
+                        <p class="promo-conditions text-center">*Promotion Valable pour le choix de plusieurs prestations
+                            2 prestations = -5% 3 prestations = -12% 4 prestations = -20% 
+                        </p>
+                    </div>
+                </div>                                             
+            </div>
+            
+        </main>
+        <footer>
+            <div class="footer-wrapper flex space-between align-items-center">
+                <ul class="footer-menu flex space-around">
+                    <li><a class="link" href="">Cookies</a></li>
+                    <li><a class="link" href="">Conditions générales</a></li>
+                    <li><a class="link" href="">Aide?</a></li>
+                </ul>
+                <ul class="social-menu flex space-around align-items-center ">
+                    <li><a class="link social" href=""><img src="../img/facebook.png" alt="logo facebook"></a></li>
+                    <li><a class="link social" href=""><img src="../img/youtube.png" alt="logo youtube"></a></li>
+                    <li><a class="link social" href=""><img src="../img/instagram.png" alt="logo instagram"></a></li>
+                </ul>
+            </div>            
+        </footer>
+    </body>
+</html>

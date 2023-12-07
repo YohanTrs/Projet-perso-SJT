@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prestations</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jura">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-wrapper flex space-between">
+                <div class="header-left">
+                    <img class="logo" src="../img/logo.png" alt="Logo du site RenovAction">
+                </div>
+                <div class="header-center flex column align-items-center">
+                    <h2 class="site-title">Roulez vieux, roulez heureux</h2>
+                    <nav class="">
+                        <ul class="menu flex space-around"> <!-- Menu -->
+                            <li><a class="link-header" href="../index.html">Accueil</a></li>
+                            <li> <a href="prestations.html" class="link-header" href="prestations.html">Prestations</a>
+                                <ul class="sub-menu">
+                                    <li><a class="link-header" href=""></a>Peinture</li>
+                                    <li><a class="link-header" href=""></a>Sellerie</li>
+                                    <li><a class="link-header" href=""></a>Chrome et Plastique</li>
+                                </ul>
+                            </li>
+                            <li><a class="link-header" href="devis.html">Devis</a></li>
+                            <li><a class="link-header" href="achat.html">Achat</a></li>
+                            <li><a class="link-header" href="vente.html">Vente</a></li>
+                            <li><a class="link-header" href="galerie.html">Galerie</a></li>                        
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-right">
+                     <ul>  <!-- Subscribe bloc -->
+                        <li><a href="inscription.html" class="link-header" id="subscribe">Inscription</a></li>
+                    </ul>
+                </div>                           
+            </div>            
+        </header>
+        <main class="prestations-background backgrounds">
+            <div class="wrapper-presta filter"><!-- Filtre opaque-->
+                <div class="site-presentation">
+                    <h1 class="main-title">Nos prestations</h1>
+                    <div id="slider">
+                        <img id="img" src="../img/presta1.jpg" alt="Image prestation peinture">
+                        <div id="precedent" onclick="changeSlider(-1)"></div>
+                        <div id="suivant" onclick="changeSlider(1)"></div>                        
+                    </div>
+                    <p class="main-subtitle">
+                       <strong>Peinture complète</strong>
+                    </p>
+                </div>
+                <div class="presta flex align-items-center">
+                    <div class="presta-left article-filter flex align-items-center">
+                        <p class="">Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Tenetur aliquid eos quidem ad.
+                            Ad, voluptatum nam! Veniam,
+                            labore voluptas blanditiis autem animi soluta dolores est,
+                            sunt atque debitis placeat mollitia?
+                        </p>
+                    </div>
+                    <div class="presta-right">
+                        <img class="presta-img" src="../img/presta1.jpg" alt="Image prestation peinture">
+                    </div>
+                </div>                                             
+            </div>
+            <div class="wrapper-presta filter">
+                <div class="site-presentation">
+                    <div class="">
+                        
+                    </div>                    
+                    <p class="main-subtitle">
+                       <strong>Sellerie</strong>
+                    </p>
+                </div>
+                <div class="presta flex align-items-center">
+                    <div class="presta-right">
+                        <img class="presta-img" src="../img/presta2.jpg" alt="Image prestation peinture">
+                    </div>
+                    <div class="presta-left article-filter flex align-items-center">
+                        <p class="">Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Tenetur aliquid eos quidem ad.
+                            Ad, voluptatum nam! Veniam,
+                            labore voluptas blanditiis autem animi soluta dolores est,
+                            sunt atque debitis placeat mollitia?
+                        </p>
+                    </div>                    
+                </div>                                             
+            </div>
+            <div class="wrapper-presta filter">
+                <div class="site-presentation">
+                    <div class="">
+                        
+                    </div>
+                    <p class="main-subtitle">
+                       <strong>Chromes et Plastiques</strong>
+                    </p>
+                </div>
+                <div class="presta flex align-items-center">
+                    <div class="presta-left article-filter flex align-items-center">
+                        <p class="">Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Tenetur aliquid eos quidem ad.
+                            Ad, voluptatum nam! Veniam,
+                            labore voluptas blanditiis autem animi soluta dolores est,
+                            sunt atque debitis placeat mollitia?
+                        </p>
+                    </div>
+                    <div class="presta-right">
+                        <img class="presta-img" src="../img/presta3.jpg" alt="Image prestation peinture">
+                    </div>
+                </div>                                             
+            </div>
+        </main>
+        <footer>
+            <div class="footer-wrapper flex space-between align-items-center">
+                <ul class="footer-menu flex space-around">
+                    <li><a class="link" href="">Cookies</a></li>
+                    <li><a class="link" href="">Conditions générales</a></li>
+                    <li><a class="link" href="">Aide?</a></li>
+                </ul>
+                <ul class="social-menu flex space-around align-items-center ">
+                    <li><a class="link social" href=""><img src="../img/facebook.png" alt="logo facebook"></a></li>
+                    <li><a class="link social" href=""><img src="../img/youtube.png" alt="logo youtube"></a></li>
+                    <li><a class="link social" href=""><img src="../img/instagram.png" alt="logo instagram"></a></li>
+                </ul>
+            </div>            
+        </footer>
+    </body>
+    <script async type="text/javascript" src="../js/index.js"></script>
+</html>
